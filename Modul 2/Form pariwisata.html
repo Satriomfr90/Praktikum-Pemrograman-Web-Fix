@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Membuat Form Pariwisata </title>
+    <p><b> Form Pariwisata</b></p>
+    <style>
+        #body {background-color:lightgrey}
+        h1 {color:black}
+        p	{
+              color:lightred ; 
+              font: italic 1.3em "Fira Sans", serif;
+          }
+        input[type=text] {
+            background-color:grey;
+            color : red;
+        }
+        .SOLO{
+            color : yellow;
+        }
+    </style>
+</head>
+
+    </head>
+<body>
+    <form action=" formulir.html" method="get">
+    Nama : <input type="text" name="Nama" value="" />
+    <br />
+    Age : <input type="Age" name="Age" />
+    <br />
+    Gender :
+    <input type="radio" name="Gender" value="laki-laki" checked />
+    Laki - Laki
+    <input type="radio" name="Gender" value="perempuan" />
+    Perempuan
+    <br />
+    Adress : <input type="Address" name="Address" />
+    <br />
+    Phone Number : <input type="Phone Number" name="Phone Number" />
+    <br />
+    Tujuan Wisata :
+    <input class="satrio" type="radio" name="Taman Pintar" value="Taman Pintar" checked />
+    <p class="SOLO" >Solo</p>
+    <input type="radio" name="Sarangan" value="Sarangan" />
+    Magetan
+    <input type ="radio" name="Kulon Progo" value="Kulon Progo" />
+    Yogyakarta
+    <input type="radio" name="Ngebel" value="Ngebel" />
+    Ponorogo
+    <br />
+    <input id="alamat" type="text" value="alamat"/>
+    
+    Pembayaran : 
+    <input type="radio" name="Cash" value="Cash" checked />
+    Cash
+    <input type="radio" name="Debit" value="Debit" />
+    Debit
+    <input type="radio" name="Gopay" valu="Gopay" />
+    Gopay
+    <input type="radio" name="Dana" value="Dana" />
+    Dana
+    <br />
+    Asal Universitas :
+    <select name="Asal Universitas" >
+        <option value="Unmer">Unmer</option>
+        <option>Unipma</option>
+        <option value="Unbraw" selected>Unbraw</option>
+        <option value="Uns" selected>Uns</option>
+        </select>
+    <br />
+    Asal Daerah :
+    <select name="Asal Daerah" >
+    <option value="Manisrejo"> Manisrejo</option>
+    <option>Simbatan</option>
+    <option value="Gorang Gareng" selected>Gorang Gareng</option>
+    <option value="Taji" selected>Taji</option>
+    <option value="Karas" selected>Karas</option>
+    </select>
+    <br />
+    Komentar Anda Terkait Pelayanan Ini:
+    <textarea name="komentar" rows="5" cols="20">
+    </textarea>
+    <br />
+    <input type="submit" value="Mulai Proses!" >
+    </form>
+    </body>
+
+    </html>

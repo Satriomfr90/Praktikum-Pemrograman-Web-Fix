@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Membuat Form Perpus Kota Madiun </title>
+    <p><b>Membuat Form Perpus Kota Madiun</b></p>
+    <style>
+        body {background-color:yellow}
+        h1 {color:red}
+        p {color:red}
+        </style>
+    </head>
+<body>
+<hr>
+    <table border="0"></table>
+    <form action=" formulir.html" method="get">
+    Nama: <input type=" text " name=" Nama " value=" " />
+    <br />
+    Password: <input type="password" name="password" />
+    <br />
+    Jenis Kelamin :
+    <input type="radio" name="jenis_kelamin" value="laki-laki" checked />
+    Laki - Laki
+    <input type="radio" name="jenis_kelamin" value="perempuan" />
+    Perempuan
+    <br />
+    Asal Universitas: <input type="Asal Universitas" name="Asal Universitas" />
+    <br />
+    Nomor Peminjaman :<input type="Nomor Peminjaman" name="Nomor Peminjaman" />
+    <br />
+    Kartu Pelajar : <input type="Kartu Pelajar" name="Kartu Pelajar" />
+    <br />
+    <tr><td>Tempat/Tanggal Lahir</td><td>: <input name="Tempat" type="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" name="tempat/tanggal lahir" value="  "/></td></tr>
+    <br/>
+    <tr><td>Alamat</td><td> :
+    <textarea name="komentar" rows="5" cols="21">Alamat Lengkap</textarea>
+    </tr>
+    <br/>
+    <tr><td>Asal Kota</td><td> :
+        <select name="asal_kota" >
+         <option value="Pilih Kota"> Jakarta</option>
+         <option>Bandung</option>
+         <option>Semarang</option>
+         <option>Surabaya</option>
+         <option>Yogyakarta</option>
+         <option>Bogor</option>
+         <option>Surakarta</option>
+         <option>Madura</option>
+         <option value="Kota Semarang" selected>Pilih Kota</option>
+        </select>
+        </tr>
+        <br/>
+    Komentar Anda:
+    <textarea name="komentar" rows="5" cols="20">
+    </textarea>
+    <br />
+    <input type="submit" value="Mulai Proses!" >
+    </form>
+    </body>
+    </html>
